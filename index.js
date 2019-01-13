@@ -21,16 +21,16 @@ bot.on('message', msg => {
     bot.user.setActivity("Katzenvideos",{type: "WATCHING"} )
   }
 
-  if (msg.content === 'Spiel mal was, DEUTSCHLAND LEBT') {
+  if (msg.content === 'spiel mit dir selbst') {
     bot.user.setActivity("mit sich selbst rum",{type: "PLAYING"} )
 
-    msg.reply('hdf');
+    msg.channel.send('hdf');
   }
 
   if (msg.content === 'hdf') {
-    bot.user.setActivity("lol",{type: "WATCHING"} )
+    bot.user.setActivity("Pornos",{type: "WATCHING"} )
 
-    msg.reply('lol');
+    msg.reply('schau xxx');
   }
 
 
