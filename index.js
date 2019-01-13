@@ -48,6 +48,4 @@ bot.on('message', msg => {
 
 
 
-bot.login('NTMyMjcwNjU2MzIzMTkwNzg0.DxzJHA.kDT8DiMgcpX5M1_gcQkGfEf9bi8');
-
-
+bot.login('NTMyMjcwNjU2MzIzMTkwNzg0.Dxz5Lg.TF96BtsXd-9ayy75i6aZZDCgKUg');
