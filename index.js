@@ -16,8 +16,8 @@ bot.on('ready', () => {
 
 
 bot.on('message', msg => {
-  if (msg.content === 'mach was Sinnvolles, DEUTSCHLAND LEBT') {
-    msg.replx('ok');
+  if (msg.content === 'schau Katzenvideos') {
+    msg.channel.send('ok');
     bot.user.setActivity("Katzenvideos",{type: "WATCHING"} )
   }
 
