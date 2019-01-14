@@ -39,17 +39,7 @@ bot.on('message', msg => {
  }
 
 );
-Welcome(client, {
-    "528670253941784576": {
-        publicmsg : "Willkommen bei DEUTSCHLAND LEBT @MEMBER, :tada::hugging: !",
-        publicchannel : "willkommen"
-    },
-    "534051347549650954": {
-        privatemsg : "Second Server default message",
-        publicmsg : "Willkommen bei DEUTSCHLAND LEBT @MEMBER, :tada::hugging: !",
-        publicchannel : "willkommen"
-    }
-})
+
 
 Welcome(bot, {
 
