@@ -1,10 +1,12 @@
 const Discord = require('discord.js');
+const Welcome = require("discord-welcome");
 const bot = new Discord.Client();
+
 
 
 bot.on('ready', () => {
     // Set bot status to: "Playing with JavaScript"
-    bot.user.setActivity("Pornos",{type: "WATCHING"} )
+    bot.user.setActivity("DEUTSCHLAND LEBT",{type: "PLAYING"} )
 
 
 
@@ -36,10 +38,13 @@ bot.on('message', msg => {
 
  }
 
-
-
-   
-
 );
+
+
+Welcome(bot, {
+
+  publicmsg : "Willkommen bei DEUTSCHLAND LEBT @MEMBER, :tada::hugging: !",
+  publicchannel : "willkommen"
+  })
 // THIS  MUST  BE  THIS  WAY
 bot.login(process.env.BOT_TOKEN);
