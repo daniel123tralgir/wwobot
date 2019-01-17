@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const Welcome = require('./welcome.js');
+const Welcome = require("discord-welcome");
 const bot = new Discord.Client();
 
 
