@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const path = require('path');
 const Welcome = require('./welcome.js');
 const bot = new Discord.Client();
 
