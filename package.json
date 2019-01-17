@@ -5,14 +5,14 @@
   "main": "index.js",
 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "welcome.js": "./bin/wwobot"
 }
   },
   "repository": "https://github.com/daniel123tralgir/wwobot",
   "author": "",
   "license": "ISC",
   "dependencies": {
-      "welcome.js": "https://github.com/daniel123tralgir/wwobot/welcome.js",
 
     "discord.js": "^11.4.2"
   }
