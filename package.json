@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-      "welcome.js": "wwobot/welcome.js",
+      "welcome.js": "https://github.com/daniel123tralgir/wwobot/welcome.js",
 
     "discord.js": "^11.4.2"
   }
