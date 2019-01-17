@@ -3,17 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-     "welcome.js": "./bin/wwobot"
-}
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/daniel123tralgir/wwobot",
   "author": "",
   "license": "ISC",
   "dependencies": {
-
+    "discord-welcome": "^1.5.0",
     "discord.js": "^11.4.2"
   }
 }
