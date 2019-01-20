@@ -28,6 +28,12 @@ bot.on('message', msg => {
 
     msg.channel.send('hdf');
   }
+    
+     if (msg.content === 'Alisa') {
+
+
+    msg.channel.send('hdf');
+  }
 
   if (msg.content === 'schau xxx') {
     bot.user.setActivity("Pornos",{type: "WATCHING"} )
