@@ -1,7 +1,9 @@
 const Discord = require('discord.js');
 const Welcome = require("./welcome.js");
 const bot = new Discord.Client();
+const firebase = require("firebase-admin");
 
+const serviceAccount = require("./serviceAccountKey.json");
 
 
 bot.on('ready', () => {
