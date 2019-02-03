@@ -50,7 +50,10 @@ bot.on('message', msg => {
 Welcome(bot, {
 
   publicmsg : "Willkommen bei DEUTSCHLAND LEBT @MEMBER, :tada::hugging: !",
-  publicchannel : "willkommen"
+  publicchannel : "willkommen",
+  privatemsg1 : "Willkommen bei DEUTSCHLAND LEBT!",
+  publicmsg1 : "Tschüss, @MEMBER!",
+  publicchannel1 : "willkommen"
   })
 // THIS  MUST  BE  THIS  WAY
 bot.login(process.env.BOT_TOKEN);
