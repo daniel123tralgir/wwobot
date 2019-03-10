@@ -26,15 +26,17 @@ const sayObject = {
   "oof": "big oof",
 
  "tja": "Thorsten",
+     "Tja": "Thorsten",
   "aaa": "nerv nicht",
-
+          "Koala": "stinkt",
           "koala": "stinkt",
               "koala?": "= Noob",
-
+        "Katja": "is geil",
+        "alisa": "mag Fisch",
         "Alisa": "mag Fisch",
         "katja": "is geil",
         "oh": "yeah nahui",
-    
+        "ach komm": "ja",
   "hahaha": "rofl"
   
 };
@@ -59,19 +61,7 @@ bot.on('message', (message) => {
  }
  )
 
-bot.on('message', (message) => {
-  if(responseObject[message.content]) {
-    message.reply(responseObject[message.content]);
-  }
-  
-   if(sayObject[message.content]) {
-    message.channel.send(sayObject[message.content]);
-  }
 
-
- }
-
-)
 
 
 Welcome(bot, {
