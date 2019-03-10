@@ -18,7 +18,7 @@ bot.on('ready', () => {
     // client.user.setActivity("TV", {type: "WATCHING"})
 })
 const sayObject = {
-  "hi ProjectX": "Hi!",
+  "hi": "Hi!",
   "wat": "Say what?",
   "lol": "roflmaotntpmp",
   "schau Katzenvideos": "ok",
@@ -37,7 +37,9 @@ const sayObject = {
         "katja": "is geil",
         "oh": "yeah nahui",
         "ach komm": "ja",
-  "hahaha": "rofl"
+  "hahaha": "rofl",
+  "KoalaKoala": "Koala ist geil",
+      "koalakoala": "Koala ist geil"
   
 };
 const responseObject = {
