@@ -24,7 +24,7 @@ const sayObject = {
   "schau Katzenvideos": "ok",
   "spiel Fortnite": "Nö",
   "oof": "big oof",
- "Tja": "Thorsten",
+
  "tja": "Thorsten",
   "aaa": "nerv nicht",
 
