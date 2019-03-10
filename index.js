@@ -34,7 +34,7 @@ const responseObject = {
      "Hallo": "Du bist jetzt mal still.",
    "lass": "Nein"
     
-    })
+    };
     
     
     
@@ -49,32 +49,16 @@ bot.on('message', (message) => {
 
 
  }
+ );
 
-bot.on('message', msg => {
-  if (msg.content === 'schau Katzenvideos') {
-    msg.channel.send('ok');
-    bot.user.setActivity("Katzenvideos",{type: "WATCHING"} )
+bot.on('message', (message) => {
+  if(responseObject[message.content]) {
+    message.reply(responseObject[message.content]);
   }
-
-  if (msg.content === 'spiel mit dir selbst') {
-    bot.user.setActivity("mit sich selbst rum",{type: "PLAYING"} )
-
-    msg.channel.send('hdf');
+  
+   if(sayObject[message.content]) {
+    message.channel.send(sayObject[message.content]);
   }
-    
-     if (msg.content === 'Alisa') {
-
-
-    msg.channel.send('hdf');
-  }
-
-  if (msg.content === 'schau xxx') {
-    bot.user.setActivity("Pornos",{type: "WATCHING"} )
-
-    msg.channel.send('Jaaa;)');
-  }
-    
-    
 
 
  }
