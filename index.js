@@ -24,8 +24,8 @@ const sayObject = {
   "schau Katzenvideos": "ok",
   "spiel Fortnite": "Nö",
   "oof": "big oof",
-      "Tja": "Thorsten",
-          "tja": "Thorsten",
+ "Tja": "Thorsten",
+ "tja": "Thorsten",
   "aaa": "nerv nicht",
   "hahaha": "rofl"
   
@@ -49,7 +49,7 @@ bot.on('message', (message) => {
 
 
  }
- );
+ )
 
 bot.on('message', (message) => {
   if(responseObject[message.content]) {
@@ -63,7 +63,7 @@ bot.on('message', (message) => {
 
  }
 
-);
+)
 
 
 Welcome(bot, {
