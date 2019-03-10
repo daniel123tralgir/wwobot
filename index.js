@@ -17,7 +17,38 @@ bot.on('ready', () => {
     // For example:
     // client.user.setActivity("TV", {type: "WATCHING"})
 })
+const sayObject = {
+  "hi ProjectX": "Hi!",
+  "wat": "Say what?",
+  "lol": "roflmaotntpmp",
+  "schau Katzenvideos": "ok",
+  "spiel Fortnite": "Nö",
+  "oof": "big oof",
+      "Tja": "Thorsten",
+          "tja": "Thorsten",
+  "aaa": "nerv nicht",
+  "hahaha": "rofl"
+  
+};
+const responseObject = {
+     "Hallo": "Du bist jetzt mal still.",
+   "lass": "Nein",
+    
+    })
+    
+    
+    
+bot.on('message', (message) => {
+  if(responseObject[message.content]) {
+    message.reply(responseObject[message.content]);
+  }
+  
+   if(sayObject[message.content]) {
+    message.channel.send(sayObject[message.content]);
+  }
 
+
+ }
 
 bot.on('message', msg => {
   if (msg.content === 'schau Katzenvideos') {
@@ -42,6 +73,8 @@ bot.on('message', msg => {
 
     msg.channel.send('Jaaa;)');
   }
+    
+    
 
 
  }
