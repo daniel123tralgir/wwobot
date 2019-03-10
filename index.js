@@ -27,12 +27,12 @@ const sayObject = {
  "Tja": "Thorsten",
  "tja": "Thorsten",
   "aaa": "nerv nicht",
-      "Koala": "stinkt",
+
           "koala": "stinkt",
               "koala?": "= Noob",
-    "Koala?": "= Noob",
+
         "Alisa": "mag Fisch",
-        "alisa": "mag Fisch",
+        "katja": "is geil",
         "oh": "yeah nahui",
     
   "hahaha": "rofl"
