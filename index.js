@@ -31,6 +31,9 @@ const sayObject = {
           "koala": "stinkt",
               "koala?": "= Noob",
     "Koala?": "= Noob",
+        "Alisa": "mag Fisch",
+        "alisa": "mag Fisch",
+        "oh": "yeah nahui",
     
   "hahaha": "rofl"
   
