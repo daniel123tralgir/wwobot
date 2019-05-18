@@ -91,7 +91,7 @@ module.exports = function(bot, options) {
             channel.send({ embed });
           }
           else {
-            msg = publicmsg1.replace(`@MEMBER`, `${member.tag}`);
+            msg = publicmsg1.replace(`@MEMBER`, `${member.user.tag}`);
             msg = msg.replace(`@GUILDNAME`, `${member.guild.name}`);
             
             // Send the Message
