@@ -71,8 +71,8 @@ Welcome(bot, {
   publicmsg : "Willkommen bei DEUTSCHLAND LEBT @MEMBER, :tada::hugging: ! \nBitte stelle dich bei <#554418899740000275>  kurz vor:fire:",
   publicchannel : "willkommen",
   privatemsg1 : "Willkommen bei DEUTSCHLAND LEBT!",
-  publicmsg1 : "Tschüss, @MEMBER!",
-  publicchannel1 : "willkommen"
+  publicmsg1 : "@MEMBER hat den Server verlassen. Tschüss!",
+  publicchannel1 : "tschüss"
   })
 // THIS  MUST  BE  THIS  WAY
 bot.login(process.env.BOT_TOKEN);
