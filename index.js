@@ -72,7 +72,7 @@ Welcome(bot, {
   publicchannel : "willkommen",
   privatemsg1 : "Willkommen bei DEUTSCHLAND LEBT!",
   publicmsg1 : "@MEMBER hat den Server verlassen. Tschüss!",
-  publicchannel1 : "tschüss"
+  publicchannel1 : "579287066131824670"
   })
 // THIS  MUST  BE  THIS  WAY
 bot.login(process.env.BOT_TOKEN);
