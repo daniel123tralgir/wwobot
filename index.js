@@ -8,8 +8,8 @@ const serviceAccount = require("./serviceAccountKey.json");
 
 bot.on('ready', () => {
     // Set bot status to: "Playing with JavaScript"
-    bot.user.setActivity("DEUTSCHLAND LEBT",{type: "PLAYING"} )
-   console.log("DEUTSCHLAND LEBT Online!");
+    bot.user.setActivity("NIGHT DREAM",{type: "PLAYING"} )
+   console.log("NIGHT DREAM Online!");
 
 
     // Alternatively, you can set the activity to any of the following:
@@ -68,9 +68,9 @@ bot.on('message', (message) => {
 
 Welcome(bot, {
 
-  publicmsg : "Willkommen bei DEUTSCHLAND LEBT @MEMBER, :tada::hugging: ! \nBitte stelle dich bei <#554418899740000275>  kurz vor:fire:",
+  publicmsg : "Willkommen bei NIGHT DREAM @MEMBER, :waxing_crescent_moon::tada::hugging: ! \nBitte stelle dich bei <#554418899740000275>  kurz vor:fire:",
   publicchannel : "willkommen",
-  privatemsg1 : "Willkommen bei DEUTSCHLAND LEBT!",
+  privatemsg1 : "Willkommen bei NIGHT DREAM!",
   publicmsg1 : "@MEMBER hat den Server verlassen. Tschüss:wave:!",
   publicchannel1 : "579287066131824670"
   })
