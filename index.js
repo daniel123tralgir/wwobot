@@ -19,27 +19,7 @@ bot.on('ready', () => {
 })
 const sayObject = {
   "hi": "Hi!",
-  "wat": "Say what?",
-  "lol": "roflmaotntpmp",
-  "schau Katzenvideos": "ok",
-  "spiel Fortnite": "Nö",
-  "oof": "big oof",
 
- "tja": "Thorsten",
-     "Tja": "Thorsten",
-  "aaa": "nerv nicht",
-          "Koala": "stinkt",
-          "koala": "stinkt",
-              "koala?": "= Noob",
-        "Katja": "is geil",
-        "alisa": "mag Fisch",
-        "Alisa": "mag Fisch",
-        "katja": "is geil",
-        "oh": "yeah nahui",
-        "ach komm": "ja",
-  "hahaha": "rofl",
-  "KoalaKoala": "Koala ist geil",
-      "koalakoala": "Koala ist geil"
   
 };
 const responseObject = {
