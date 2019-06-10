@@ -23,7 +23,7 @@ const sayObject = {
   
 };
 const responseObject = {
-     "Hallo": "Du bist jetzt mal still.",
+
    "lass": "Nein"
     
     };
